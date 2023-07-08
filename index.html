@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Notes">
+    <meta name="description" content="A simple notes website example, stores the created notes in a cookie.">
+    <meta name="keywords" content="notes,ruu3f,localstorage,storage,opensourced,opensource,open,source,sourced,cookie,github,git,hub">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="shortcut icon" href="https://cdn.upload.systems/uploads/NuJ9PD62.png">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+  </head>
+  <body>
+    <a href="https://github.com/Ruu3f/notes-website"><img src="https://cdn.upload.systems/uploads/z4EPZgLi.png"></a>
+    <h1>Notes App</h1>
+    <div class="container">
+      <form id="note-form">
+        <input type="text" id="title-input" placeholder="Enter note title (max 25 characters)" maxlength="25" required>
+        <textarea id="description-input" placeholder="Enter note description (max 500 characters)" maxlength="500"></textarea>
+        <button type="submit">Add Note</button>
+      </form>
+      <div id="note-list"></div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
